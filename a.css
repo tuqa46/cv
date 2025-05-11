@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to bottom,#a5c4ff,#8229d5);
+    min-height: 100%;
+}
+.bossdiv{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(20, 0, 27, 0.698);
+    width: 95%;
+    max-width: 900px;
+    margin: 30px auto;
+    justify-content: center;
+    align-content: center;
+}
+h2{
+    font-family: Orbitron;
+    font-size: xx-large;
+    text-align:center;
+    color: #610da1;
+    margin-bottom:20px ;
+    margin-top: 20px;
+}
+h4{
+    font-family: Orbitron;
+    font-size: large;
+    text-align:center;
+    color: #ffffff;
+    margin: 20px auto;
+    background: linear-gradient(to top,#9fdeff,#ca98ff);
+    border-radius: 100px;
+    padding: 10px;
+    justify-self: center;
+    width: fit-content;
+}
+h6{
+    font-family: Oxanium;
+    font-size: medium;
+    font-style: normal;
+    text-align: center;
+    color: #5374c1;
+    padding: 4px;
+    justify-self: center;
+}
+.skillexp{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skill,.ex{
+    flex: 1;
+    min-width: 300px;
+}
+.bar{
+    width: 0;
+    height: 6px;
+    background: linear-gradient(to left,#d092ff,#fffcb4);
+    margin: 6px 30px;
+    border-radius: 10px;
+    transition: width 1.5s ease;
+    
+}
+.item{
+    display:flex ;
+    align-items: center;
+    gap:10px;
+    margin: 6px 30px;
+}
+.item h6 {
+  width: 300px; 
+  text-align: left;
+}
+
+
+.rahaimg,.cerimg,.broimg{
+    justify-self:center;
+    align-self: center;
+    margin: 40px auto;
+    border: #e7c9fd solid 3px;
+    border-radius: 15px; 
+    
+}
+.proj{
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 30px;
+    height: auto;
+    justify-self: center;
+    margin: 4px;
+    flex:1;   
+}
+.sliders {
+  position: relative;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.slideC,.slideB,.slideR{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.cer,.bro,.pro{
+    min-width: 100%;
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+.cerimg,.broimg,.rahaimg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+
+.prev, .next {
+  position:absolute;
+  top:50%;
+  background: linear-gradient(to top,#93b3ff,#b4ffec);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+
+}
+.prev {
+  left: -80px;
+}
+.next {
+  right: -80px;
+}
+
